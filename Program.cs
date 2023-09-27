@@ -76,8 +76,6 @@ namespace MicrosoftExcelServiceConsoleApp
                 }
             }
 
-            //worker.DisplayGoldenClientByMonthAndYear(6,2023);
-
         }
     }
 }
