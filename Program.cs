@@ -8,9 +8,7 @@ namespace MicrosoftExcelServiceConsoleApp
             ConsoleViewer.EnterPath();
             var path = Console.ReadLine();
 
-            var worker =
-                new ExcelDataWorker(
-                    path);
+            var worker = new ExcelDataWorker(path);
 
             while (worker.TryOpenConnection() != true)
             {
